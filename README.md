@@ -13,14 +13,16 @@ let a = 1;
 2 == "2" // true
 2 === "2" // false
 
-1 пример
+1 пример:
+
 const value = "500";
 if (value === 500) {
   console.log(value);
   // этот код не выполнится
 }
 
-2 пример
+2 пример:
+
 if (value === "500") {
   console.log(value);
   // этот код выполнится
